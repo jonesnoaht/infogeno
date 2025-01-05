@@ -204,5 +204,3 @@ data Count = Fpkm Float| Fpm Float | RawCount Int
 -- !!!!!! be given type declations so that they are accessible to the
 -- !!!!!! type checker, but they should also be retained if the
 -- !!!!!! pullback should expect them
-
--- Very very sad
