@@ -1,5 +1,6 @@
-{-# LANGUAGE GADTs ,
-ImportQualifiedPost #-}
+{-# LANGUAGE GADTs
+           , ImportQualifiedPost
+           , PolyKinds #-}
 
 module ImageAlgebra (
                     ) where
@@ -14,3 +15,8 @@ data FourierResult = FourierResult
   { frequency :: Image
   , phase :: Image
   }
+
+class Fourierable
+-- some quality regarding smoothness
+
+-- need subtractability and direct subtract direct sum
