@@ -75,4 +75,5 @@ these processes.
 
 unending project
 
--[ ] import algebraic system from genetics module
+       -[ ] import algebraic system from genetics module
+       -[ ] 
